@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chapter1" />
+        <module name="chapter2" />
+        <module name="chapter3" />
+        <module name="cloud-client" />
+        <module name="cloud-server" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="dubboprotocol" />
+        <module name="eureka-server" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chapter1" target="1.8" />
+      <module name="chapter2" target="1.8" />
+      <module name="chapter3" target="1.8" />
+      <module name="chapter3-jsp" target="1.8" />
+      <module name="cloud-client" target="1.8" />
+      <module name="cloud-server" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubboprotocol" target="1.5" />
+      <module name="eureka-server" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="Spring.Boot" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+server:
+  port: 8764
+spring:
+  application:
+    name: dubbo-provider
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20882
